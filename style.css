@@ -26,13 +26,10 @@ nav a {
   text-decoration: none;
 }
 
-/* SECTIONS */
-section {
-  padding: 80px 20px;
-  text-align: center;
-}
-
+/* HOME */
 #home {
+  padding: 100px 20px;
+  text-align: center;
   background: linear-gradient(to right, #2563eb, #7c3aed);
 }
 
@@ -45,6 +42,27 @@ section {
   color: black;
   border-radius: 5px;
   text-decoration: none;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.social-icons a:hover {
+  color: #38bdf8;
+}
+
+/* SECTIONS */
+section {
+  padding: 70px 20px;
+  text-align: center;
 }
 
 /* SKILLS */
