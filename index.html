@@ -2,50 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>G. Bhavyasri Portfolio</title>
+  <title>Bhavyasri Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<nav>
+  <h2>Bhavyasri</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="fade">
   <h1>Hi, I'm G. Bhavyasri 👋</h1>
   <p>AI & Data Science Student</p>
-</header>
+  <a href="#" class="btn">Download Resume</a>
+</section>
 
-<section>
+<section id="about" class="fade">
   <h2>About Me</h2>
   <p>
-    Motivated and detail-oriented fresher with a strong academic background in Artificial Intelligence 
-    and Data Science. Possesses good problem-solving skills and a passion for learning new technologies. 
-    Seeking an opportunity to apply my knowledge and grow in a dynamic work environment.
+    Motivated AI & Data Science student with strong problem-solving skills
+    and passion for learning new technologies.
   </p>
 </section>
 
-<section>
+<section id="skills" class="fade">
   <h2>Skills</h2>
-  <ul>
-    <li>Python</li>
-    <li>HTML</li>
-    <li>R Programming</li>
-  </ul>
+  <div class="skills">
+    <div>Python</div>
+    <div>HTML</div>
+    <div>R Programming</div>
+  </div>
 </section>
 
-<section>
+<section id="projects" class="fade">
   <h2>Projects</h2>
-  <ul>
-    <li>A CNN-based approach for classifying traditional and modern Indo fashion styles</li>
-    <li>Development of an early warning system to support education planning process by identifying at-risk students</li>
-  </ul>
+  <div class="project">
+    <h3>CNN Fashion Classification</h3>
+    <p>Classifying Indo fashion styles using AI</p>
+  </div>
+
+  <div class="project">
+    <h3>Early Warning System</h3>
+    <p>Identifying at-risk students using data</p>
+  </div>
 </section>
 
-<section>
-  <h2>Contact</h2>
+<section id="contact" class="fade">
+  <h2>Contact: 9381191950 </h2>
   <p>Email: bhavyagudivada573@gmail.com</p>
 </section>
 
 <footer>
-  <p>© 2026 G. Bhavyasri</p>
+  <p>© 2026 Bhavyasri</p>
 </footer>
+
+<script>
+  // simple animation
+  const sections = document.querySelectorAll('.fade');
+  window.addEventListener('scroll', () => {
+    sections.forEach(sec => {
+      const top = sec.getBoundingClientRect().top;
+      if(top < window.innerHeight - 100){
+        sec.classList.add('show');
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
