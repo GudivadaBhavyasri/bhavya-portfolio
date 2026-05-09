@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <title>Bhavyasri Portfolio</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
+<!-- NAVBAR -->
 <nav>
   <h2>Bhavyasri</h2>
   <ul>
@@ -18,20 +22,36 @@
   </ul>
 </nav>
 
+<!-- HOME -->
 <section id="home" class="fade">
-  <h1>Hi, I'm G. Bhavyasri 👋</h1>
-  <p>Artificial Intelligence & Data Science Student</p>
+  <h1>Hi, I'm G.Bhavyasri 👋</h1>
+  <p>Artifical Intelligence & Data Science Student</p>
+
+  <!-- Resume Button -->
   <a href="https://in.docworkspace.com/d/sbCaempjCrt1RDRP_sh2fkhyrg5a3wl67sl" target="_blank" class="btn">Download Resume</a>
+
+  <!-- Social Icons -->
+  <div class="social-icons">
+    <a href="https://github.com/GudivadaBhavyasri" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/bhavya-sri-4b972a354" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about" class="fade">
   <h2>About Me</h2>
   <p>
-    Motivated AI & Data Science student with strong problem-solving skills
-    and passion for learning new technologies.
+    Motivated and detail-oriented AI & Data Science student with strong problem-solving skills 
+    and passion for learning new technologies. Seeking opportunities to grow in a dynamic environment.
   </p>
 </section>
 
+<!-- SKILLS -->
 <section id="skills" class="fade">
   <h2>Skills</h2>
   <div class="skills">
@@ -41,41 +61,43 @@
   </div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects" class="fade">
   <h2>Projects</h2>
+
   <div class="project">
-    <h3>A cnn based approach for classifying traditional and modern indo fashion styles</h3>
-    <p>Classifying Indo fashion styles using AI</p>
+    <h3>CNN Based Fashion Classification</h3>
+    <p>Classifying traditional and modern Indo fashion styles using deep learning.</p>
   </div>
 
   <div class="project">
-    <h3> Development of an early warning system to support education planning process by identifying At - risk students
-
-</h3>
-    <p>Identifying at-risk students using data</p>
+    <h3>Early Warning System</h3>
+    <p>Identifying at-risk students to support education planning.</p>
   </div>
+
 </section>
 
+<!-- CONTACT -->
 <section id="contact" class="fade">
-  <h2>Contact: 9381191950 </h2>
+  <h2>Contact: 9381191950</h2>
   <p>Email: bhavyagudivada573@gmail.com</p>
 </section>
 
+<!-- FOOTER -->
 <footer>
   <p>© 2026 Bhavyasri</p>
 </footer>
 
 <script>
-  // simple animation
-  const sections = document.querySelectorAll('.fade');
-  window.addEventListener('scroll', () => {
-    sections.forEach(sec => {
-      const top = sec.getBoundingClientRect().top;
-      if(top < window.innerHeight - 100){
-        sec.classList.add('show');
-      }
-    });
+const sections = document.querySelectorAll('.fade');
+window.addEventListener('scroll', () => {
+  sections.forEach(sec => {
+    const top = sec.getBoundingClientRect().top;
+    if(top < window.innerHeight - 100){
+      sec.classList.add('show');
+    }
   });
+});
 </script>
 
 </body>
