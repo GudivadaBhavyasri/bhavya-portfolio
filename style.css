@@ -99,3 +99,7 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+.btn:hover {
+  background: #38bdf8;
+  color: white;
+}
