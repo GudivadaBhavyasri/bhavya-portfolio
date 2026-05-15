@@ -438,45 +438,34 @@ section h2{
   margin-bottom:10px;
 }
 
-/* CONTACT */
+/* CONTACT SYMBOL */
 
-.contact-card{
+.contact-icon-box{
 
-  width:400px;
+  width:80px;
+
+  height:80px;
 
   margin:auto;
 
-  padding:35px;
-
-  text-align:center;
+  margin-bottom:20px;
 
   border-radius:20px;
 
-  background:rgba(255,255,255,0.05);
+  display:flex;
 
-  border:1px solid rgba(0,247,255,0.2);
+  justify-content:center;
 
-  backdrop-filter:blur(12px);
+  align-items:center;
 
-  box-shadow:0 0 20px rgba(0,247,255,0.2);
+  background:#00f7ff;
 
-  transition:0.4s;
+  color:black;
+
+  font-size:40px;
+
+  box-shadow:0 0 25px #00f7ff;
 }
-
-.contact-card:hover{
-
-  transform:translateY(-10px);
-}
-
-.contact-icon{
-
-  font-size:45px;
-
-  color:#00f7ff;
-
-  margin-bottom:20px;
-}
-
 /* FOOTER */
 
 footer{
