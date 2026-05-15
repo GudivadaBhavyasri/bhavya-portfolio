@@ -460,21 +460,29 @@ section h2{
 
 .certificate-card{
 
+  display:flex;
+
+  align-items:center;
+
+  gap:25px;
+
+  width:80%;
+
+  margin:25px auto;
+
+  padding:25px;
+
+  border-radius:20px;
+
   background:rgba(255,255,255,0.08);
 
   backdrop-filter:blur(12px);
 
   border:1px solid rgba(255,255,255,0.1);
 
-  border-radius:20px;
-
-  padding:25px;
-
-  width:75%;
-
-  margin:20px auto;
-
   transition:0.4s;
+
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
 }
 
 .certificate-card:hover{
@@ -484,50 +492,47 @@ section h2{
   box-shadow:0 0 25px rgba(56,189,248,0.5);
 }
 
-/* FOOTER */
+/* NUMBER BOX */
 
-footer{
+.certificate-number{
 
-  padding:20px;
+  min-width:80px;
 
-  text-align:center;
+  height:80px;
 
-  background:#020617;
+  border-radius:15px;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  font-size:28px;
+
+  font-weight:bold;
+
+  background:
+  linear-gradient(
+  135deg,
+  #38bdf8,
+  #7c3aed);
+
+  color:white;
+
+  box-shadow:0 0 20px rgba(56,189,248,0.5);
 }
 
-/* MOBILE RESPONSIVE */
+/* CONTENT */
 
-@media(max-width:768px){
+.certificate-content{
 
-  nav{
+  text-align:left;
+}
 
-    flex-direction:column;
+.certificate-content h3{
 
-    gap:15px;
-  }
+  margin-bottom:10px;
 
-  nav ul{
-
-    flex-wrap:wrap;
-
-    justify-content:center;
-  }
-
-  #home h1{
-
-    font-size:35px;
-  }
-
-  .typing-text{
-
-    font-size:18px;
-  }
-
-  .glass-card,
-  .project-card,
-  .certificate-card{
-
-    width:95%;
-  }
-
+  color:#38bdf8;
 }
