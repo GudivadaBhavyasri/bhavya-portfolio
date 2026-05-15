@@ -438,6 +438,8 @@ section h2{
   margin-bottom:10px;
 }
 
+/* CONTACT */
+
 .contact-container{
 
   width:100%;
@@ -448,11 +450,12 @@ section h2{
 
   align-items:center;
 }
+
 .contact-card{
 
   width:320px;
 
-  margin:auto;
+  margin:0 auto;
 
   padding:35px;
 
@@ -469,6 +472,40 @@ section h2{
   box-shadow:0 0 20px rgba(0,247,255,0.15);
 
   transition:0.4s;
+}
+
+.contact-card:hover{
+
+  transform:translateY(-10px);
+
+  box-shadow:0 0 30px #00f7ff;
+}
+
+.contact-icon-box{
+
+  width:80px;
+
+  height:80px;
+
+  margin:auto;
+
+  margin-bottom:20px;
+
+  border-radius:20px;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  background:#00f7ff;
+
+  color:black;
+
+  font-size:40px;
+
+  box-shadow:0 0 25px #00f7ff;
 }
 /* FOOTER */
 
