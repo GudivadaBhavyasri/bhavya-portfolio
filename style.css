@@ -229,13 +229,13 @@ section h2{
   text-shadow:0 0 20px #00f7ff;
 }
 
-/* ABOUT */
-
 .about-card{
 
   width:80%;
 
-  margin:auto;
+  max-width:900px;
+
+  margin:0 auto;
 
   padding:35px;
 
@@ -255,12 +255,6 @@ section h2{
 
   transition:0.4s;
 }
-
-.about-card:hover{
-
-  transform:translateY(-10px);
-}
-
 /* SKILLS */
 
 .skills-container{
