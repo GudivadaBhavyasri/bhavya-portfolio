@@ -4,18 +4,19 @@
 <head>
 
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Bhavyasri Portfolio</title>
 
+  <!-- CSS -->
+
   <link rel="stylesheet" href="style.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
 
   <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
 </head>
 
@@ -23,55 +24,67 @@
 
 <!-- NAVBAR -->
 
-<nav>
+<header>
 
-  <h2 class="logo">Bhavyasri</h2>
+  <nav>
 
-  <ul>
+    <div class="logo">
+      BHAVYA SRI
+    </div>
 
-    <li><a href="#about">About</a></li>
+    <ul>
 
-    <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
 
-    <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
 
-    <li><a href="#contact">Contact</a></li>
+      <li><a href="#projects">Projects</a></li>
 
-  </ul>
+      <li><a href="#certificates">Certificates</a></li>
 
-</nav>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+</header>
 
 <!-- HOME -->
 
 <section class="hero">
 
-  <div class="hero-card">
+  <div class="hero-content">
 
     <img src="profile.jpg" class="profile-photo">
 
-    <h1>G. Bhavyasri</h1>
+    <h1>BHAVYASRI</h1>
 
-    <h3>AI & Data Science Student</h3>
+    <h2>AI & Data Science Student</h2>
 
-    <p class="hero-text">
+    <p>
 
       Passionate about Artificial Intelligence,
-      Machine Learning, and building smart
-      digital solutions using modern technologies.
+      Machine Learning and building innovative
+      digital solutions.
 
     </p>
 
-    <a href="PASTE_RESUME_LINK"
-    target="_blank"
-    class="btn">
+    <div class="hero-buttons">
 
-      Download Resume
+      <a href="https://in.docworkspace.com/d/sbCaetd7MIu4122M_b0paz8pe34x6fc9avo?sa=601.1074"
+      target="_blank"
+      class="btn">
 
-    </a>
+        View Resume
+
+      </a>
+
+    </div>
 
     <!-- SOCIAL ICONS -->
 
-    <div class="icons">
+    <div class="social-icons">
 
       <a href="https://github.com/GudivadaBhavyasri"
       target="_blank">
@@ -92,57 +105,97 @@
   </div>
 
 </section>
+
 <!-- ABOUT -->
 
 <section id="about">
 
-  <h2>About Me</h2>
+  <h2>About</h2>
 
-  <div class="about-container">
+  <div class="about-card">
 
-    <div class="about-card">
+    <p>
 
-      <p>
+      Motivated AI & Data Science student passionate about
+      Artificial Intelligence, Machine Learning,
+      Web Development and building smart digital solutions.
 
-        Motivated AI & Data Science student passionate about
-        Artificial Intelligence, Machine Learning, and
-        building smart digital solutions.
-
-      </p>
-
-    </div>
+    </p>
 
   </div>
 
-</section>
 </section>
 
 <!-- SKILLS -->
 
 <section id="skills">
 
-  <h2>Skills</h2>
+  <h2>Technical Skills</h2>
 
   <div class="skills-container">
 
     <div class="skill-card">
-      Python
+
+      <div class="skill-icon">
+        <i class="fab fa-python"></i>
+      </div>
+
+      <div class="skill-content">
+
+        <h3>Python</h3>
+
+        <p>Programming Language</p>
+
+      </div>
+
     </div>
 
     <div class="skill-card">
-      HTML
+
+      <div class="skill-icon">
+        <i class="fab fa-html5"></i>
+      </div>
+
+      <div class="skill-content">
+
+        <h3>HTML</h3>
+
+        <p>Markup Language</p>
+
+      </div>
+
     </div>
 
     <div class="skill-card">
-      CSS
+
+      <div class="skill-icon">
+        <i class="fab fa-css3-alt"></i>
+      </div>
+
+      <div class="skill-content">
+
+        <h3>CSS</h3>
+
+        <p>Styling Language</p>
+
+      </div>
+
     </div>
 
     <div class="skill-card">
-      R Programming
-    </div>
 
-    <div class="skill-card">
-      Machine Learning
+      <div class="skill-icon">
+        <i class="fas fa-chart-line"></i>
+      </div>
+
+      <div class="skill-content">
+
+        <h3>R Programming</h3>
+
+        <p>Statistical Computing</p>
+
+      </div>
+
     </div>
 
   </div>
@@ -155,40 +208,29 @@
 
   <h2>Projects</h2>
 
-  <div class="project-card">
+  <div class="projects-container">
 
-    <div class="project-number">
-      01
-    </div>
+    <div class="project-card">
 
-    <div class="project-content">
-
-      <h3>A cnn based approach for classifying traditional and modern indo fashion styles/h3>
+      <h3>A cnn based approach for classifying traditional and modern indo fashion styles.
+      </h3>
 
       <p>
-        Developed a CNN-based deep learning model to classify
-        traditional and modern Indo fashion styles with improved accuracy.
+        A Convolutional Neural Network (CNN) is a deep learning technique mainly used for image classification. 
+        In this project, CNN can be used to identify whether a fashion outfit belongs to traditional Indo fashion or modern Indo fashion based on images.
       </p>
 
     </div>
 
-  </div>
+    <div class="project-card">
 
-  <div class="project-card">
-
-    <div class="project-number">
-      02
-    </div>
-
-    <div class="project-content">
-
-      <h3> Development of an early warning system to support education planning process by identifying At - risk students
+      <h3>Development of an early warning system to support education planning process by identifying At - risk students
 
 </h3>
 
       <p>
-        Built an early warning system to identify at-risk students
-        and support educational planning processes.
+       The development of an Early Warning System for identifying at-risk students plays an important role in improving educational outcomes.
+        By analyzing student performance data using machine learning techniques, institutions can provide timely support and interventions.
       </p>
 
     </div>
@@ -197,8 +239,7 @@
 
 </section>
 
-</section>
-  <!-- CERTIFICATES -->
+<!-- CERTIFICATES -->
 
 <section id="certificates">
 
@@ -214,9 +255,7 @@
 
       <h3>Introduction to Data Science</h3>
 
-      <p>
-        Simplilearn
-      </p>
+      <p>Simplilearn</p>
 
     </div>
 
@@ -232,9 +271,7 @@
 
       <h3>R Programming for Beginners</h3>
 
-      <p>
-        Simplilearn
-      </p>
+      <p>Simplilearn</p>
 
     </div>
 
@@ -250,9 +287,7 @@
 
       <h3>NodeJS & Django</h3>
 
-      <p>
-        Datapoint Info Solutions
-      </p>
+      <p>Datapoint Info Solutions</p>
 
     </div>
 
@@ -268,9 +303,7 @@
 
       <h3>Basics of Python</h3>
 
-      <p>
-        Infosys Springboard
-      </p>
+      <p>Infosys Springboard</p>
 
     </div>
 
@@ -283,24 +316,31 @@
 <section id="contact">
 
   <h2>Contact</h2>
-  <p>9381191950</p>
+ <p>9381191950</p>
 
-  <div class="contact-container">
+  <div class="contact-card">
 
-    <div class="contact-card">
+    <i class="fas fa-envelope contact-icon"></i>
 
-      <i class="fas fa-envelope contact-icon"></i>
+    <h3>Email</h3>
 
-      <h3>Email</h3>
-
-      <p>
-        bhavyagudivada573@gmail.com
-      </p>
-
-    </div>
+    <p>
+      bhavyagudivada573@gmail.com
+    </p>
 
   </div>
 
 </section>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <p>
+    Designed & Developed by G. Bhavyasri ✨
+  </p>
+
+</footer>
+
 </body>
 </html>
