@@ -1,108 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Bhavyasri Portfolio</title>
-  <link rel="stylesheet" href="style.css">
 
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bhavyasri Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav>
-  <h2>Bhavyasri</h2>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+  <!-- NAVBAR -->
 
-<!-- HOME -->
-<section id="home" class="fade">
-  <h1>Hi, I'm G.Bhavyasri 👋</h1>
-  <p>Artifical Intelligence & Data Science Student</p>
+  <nav>
 
-  <!-- Resume Button -->
-  <a href="https://in.docworkspace.com/d/sbCaempjCrt1RDRP_sh2fkhyrg5a3wl67sl" target="_blank" class="btn">Download Resume</a>
+    <h2 class="logo">Bhavyasri</h2>
 
-  <!-- Social Icons -->
-  <div class="social-icons">
+    <ul>
+
+      <li><a href="#home">Home</a></li>
+
+      <li><a href="#about">About</a></li>
+
+      <li><a href="#skills">Skills</a></li>
+
+      <li><a href="#projects">Projects</a></li>
+
+      <li><a href="#certificates">Certificates</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+  <!-- HOME -->
+
+  <section id="home">
+
+    <img src="profile.jpg" alt="Bhavyasri" class="profile-photo">
+
+    <h1>Hi, I'm G. Bhavyasri 👋</h1>
+
+    <p class="typing-text">
+      AI & Data Science Student
+    </p>
+
+    <p class="tagline">
+      Passionate about AI, Data Science & Building Smart Solutions
+    </p>
+
+    <a href="https://in.docworkspace.com/d/sbCaempjCrt1RDRP_sh2fkhyrg5a3wl67sl"
+      target="_blank"
+      class="btn">
+      Download Resume
+    </a>
+
+    <!-- SOCIAL ICONS -->
+
     <div class="social-icons">
-  <a href="https://github.com/GudivadaBhavyasri" target="_blank">
-    <i class="fab fa-github"></i>
-  </a>
 
-  <a href="https://www.linkedin.com/in/bhavya-sri-4b972a354/" target="_blank">
-    <i class="fab fa-linkedin"></i>
-  </a>
-</div>
-  </div>
-</section>
+      <a href="https://github.com/GudivadaBhavyasri"
+        target="_blank">
 
-<!-- ABOUT -->
-<section id="about" class="fade">
-  <h2>About Me</h2>
-  <p>
-    Motivated and detail-oriented AI & Data Science student with strong problem-solving skills 
-    and passion for learning new technologies. Seeking opportunities to grow in a dynamic environment.
-  </p>
-</section>
+        <i class="fab fa-github"></i>
 
-<!-- SKILLS -->
-<section id="skills" class="fade">
-  <h2>Skills</h2>
-  <div class="skills">
-    <div>Python</div>
-    <div>HTML</div>
-    <div>R Programming</div>
-  </div>
-</section>
+      </a>
 
-<!-- PROJECTS -->
-<section id="projects" class="fade">
-  <h2>Projects</h2>
+      <a href="https://www.linkedin.com/in/bhavya-sri-4b972a354/"
+        target="_blank">
 
-  <div class="project">
-    <h3>A cnn based approach for classifying traditional and modern indo fashion styles</h3>
-    <p>Classifying traditional and modern Indo fashion styles using deep learning.</p>
-  </div>
+        <i class="fab fa-linkedin"></i>
 
-  <div class="project">
-    <h3>Development of an early warning system to support education planning process by identifying At - risk students
+      </a>
 
-</h3>
-    <p>Identifying at-risk students to support education planning.</p>
-  </div>
+    </div>
 
-</section>
+  </section>
 
-<!-- CONTACT -->
-<section id="contact" class="fade">
-  <h2>Contact: 9381191950</h2>
-  <p>Email: bhavyagudivada573@gmail.com</p>
-</section>
+  <!-- ABOUT -->
 
-<!-- FOOTER -->
-<footer>
-  <p>© 2026 Bhavyasri</p>
-</footer>
+  <section id="about" class="fade">
 
-<script>
-const sections = document.querySelectorAll('.fade');
-window.addEventListener('scroll', () => {
-  sections.forEach(sec => {
-    const top = sec.getBoundingClientRect().top;
-    if(top < window.innerHeight - 100){
-      sec.classList.add('show');
-    }
-  });
-});
-</script>
+    <h2>About Me</h2>
+
+    <div class="glass-card">
+
+      <p>
+
+        I am a motivated and detail-oriented AI & Data Science student
+        with strong problem-solving skills and passion for learning new
+        technologies. I enjoy building innovative solutions using AI,
+        machine learning and data-driven approaches.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+
+  <section id="skills" class="fade">
+
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill-card">Python</div>
+
+      <div class="skill-card">HTML</div>
+
+      <div class="skill-card">CSS</div>
+
+      <div class="skill-card">R Programming</div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section id="projects" class="fade">
+
+    <h2>Projects</h2>
+
+    <div class="project-card">
+
+      <h3>A cnn based approach for classifying traditional and modern indo fashion styles</h3>
+
+      <p>
+
+        Developed a CNN-based deep learning model to classify
+        traditional and modern Indo fashion styles with improved accuracy.
+
+      </p>
+
+    </div>
+
+    <div class="project-card">
+
+      <h3>Development of an early warning system to support education planning process by identifying At - risk students</h3>
+
+      <p>
+
+        Built an early warning system to identify at-risk students
+        and support educational planning processes.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- CERTIFICATES -->
+
+  <section id="certificates" class="fade">
+
+    <h2>Certificates</h2>
+
+    <div class="certificate-card">
+
+      <h3>Python Programming</h3>
+
+      <p>
+        Completed certification in Python Programming.
+      </p>
+
+    </div>
+
+    <div class="certificate-card">
+
+      <h3>Web Development</h3>
+
+      <p>
+        Learned HTML, CSS and responsive web design concepts.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="fade">
+
+    <h2>Contact:9381191950</h2>
+
+    <div class="glass-card">
+
+      <p>Email: bhavyagudivada573@gmail.com</p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 G. Bhavyasri | Portfolio
+    </p>
+
+  </footer>
 
 </body>
+
 </html>
