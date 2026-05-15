@@ -438,11 +438,21 @@ section h2{
   margin-bottom:10px;
 }
 
+.contact-container{
+
+  width:100%;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+}
 .contact-card{
 
   width:320px;
 
-  margin:0 auto;
+  margin:auto;
 
   padding:35px;
 
